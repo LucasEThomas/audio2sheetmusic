@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!--    <script src="js/spectrogram.js"></script>-->
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+
+<!--
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var spectrogram = new Spectrogram("viewport");
+            //navigator.getUserMedia({audio: true}, spectrogram.gotStream, function() { console.log("error"); });
+        })
+    </script>
+-->
+</head>
+
+<body>
+    <!--    <audio id="myAudio" src="short_fiddle_part.mp3"></audio>-->
+    <!--    <canvas id="viewport" height="4096" width="1400" />-->
+    <!--        2048 4096 8192-->
+    <canvas id="sheetMusic"></canvas>
+    <script>
+        System.import("js/sheetMusic.js");
+    </script>
+</body>
+
+</html>

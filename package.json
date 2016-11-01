@@ -1,0 +1,11 @@
+{
+  "jspm": {
+    "dependencies": {
+      "0xfe/vexflow": "github:0xfe/vexflow@^1.2.83",
+      "rubiety/vexflow-json": "github:rubiety/vexflow-json@master",
+      "underscore": "npm:underscore@^1.8.3",
+      "vexflow": "github:0xfe/vexflow@^1.2.83",
+      "vexjson": "github:rubiety/vexflow-json@master"
+    }
+  }
+}
