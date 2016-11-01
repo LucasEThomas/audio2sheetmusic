@@ -1,3 +1,8 @@
+//Cred to github.com/rubiety/vexflow-json for making this.
+//I couldn't figure out how to make it work with jspm, so I just copied it, and changed it into the class format that I like to use. 
+//I don't even know if this is the right way to do it, but I'm a newbie. 
+//Tbh, I'm still not entirely sure how dependency injection actually works.
+
 var Vex = require('vexflow');
 var _ = require('underscore');
 
