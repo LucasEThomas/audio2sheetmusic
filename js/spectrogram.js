@@ -1,3 +1,5 @@
+//cred to github.com/sebleier/spectrogram.js for making a lot of code in here that I copy / pasted.
+
 'use strict'
 class Spectrogram {
     constructor(canvasElementId, audioElementId) {
