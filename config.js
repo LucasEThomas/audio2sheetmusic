@@ -9,7 +9,8 @@ System.config({
 
   depCache: {
     "js/sheetMusic.js": [
-      "./noteBuilder.js"
+      "./noteBuilder.js",
+      "./spectrogram.js"
     ],
     "github:0xfe/vexflow@1.2.83.js": [
       "github:0xfe/vexflow@1.2.83/releases/vexflow-debug.js"

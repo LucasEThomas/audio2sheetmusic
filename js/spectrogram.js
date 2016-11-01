@@ -1,6 +1,4 @@
-window.AudioContext = window.AudioContext || window.webkitAudioContext;
-navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia;
-
+'use strict'
 class Spectrogram {
     constructor(canvasElementId, audioElementId) {
         this.canvas = document.getElementById(canvasElementId);
@@ -66,7 +64,7 @@ class Spectrogram {
         }
     }
 
-    drawCrosshairs = (x, y) => {
+    drawCrosshairs(x, y) {
         this.ctx.beginPath();
         this.ctx.moveTo(x, 0);
         this.ctx.lineTo(x, this.height);
@@ -193,10 +191,11 @@ class Spectrogram {
     animate() {
         this.drawFrame();
         if (this.counter <= 320) {
-            requestAnimationFrame(this.animate);
+            requestAnimationFrame(() => this.animate());
 
         }
         this.counter++;
     }
-
 }
+
+module.exports = Spectrogram;
